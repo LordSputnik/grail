@@ -1,0 +1,8 @@
+Ramos The Wise
+20 HP
+20 Spirit
+1 Attack - The game ignores these strings after the numbers, so treating them as comments is fine.
+1 Defense
+1 Accuracy
+1 Speed
+2 Magic

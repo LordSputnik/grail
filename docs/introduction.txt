@@ -1,0 +1,3 @@
+1|A big boomy voice from somewhere high up calls out: "WELCOME TO THE GAME, ADVENTURER!". As you look around amongst the clouds for the source of the voice, a little creature kicks you on the foot. You look down in astonishment as the source of the voice kicks you again, shouting "I'M DOWN HERE, YOU F00L!"|Kick Creature|1|2|Say "Yes"|1|3
+2|"OWWWW.... GAME OVER!"|
+3|"I'M GLAD YOU SAID THAT", says the creature, "FOR IF YOU'D KICKED ME, YOU'D HAVE NOTHING ELSE TO DO!"

@@ -1,0 +1,46 @@
+GRAIL - Text Based Game Project
+===============================
+
+Aim
+---
+The aim of this project is to design and make a 20 minute long text based game.
+
+Planning
+--------
+
+The game will use a series of level files, each set up as a table containing strings, string ids, and various option fields.
+
+Level File Line Layout:
+
+| ID | String | Option 1 | Option 1 Target Level | Option 1 Target ID | Option 2 ... etc.
+
+A single master file will contain the names of each level file, and level IDs, in a similar way to the level files.
+
+In addition, there will be a series of battle files, which specify the names and stat ranges of the monsters the player will face. Actual stats will be calculated randomly at runtime, but they will be within the ranges specified within the file. Battle file layout:
+
+ID
+{
+| Opponent ID | Opponent Name | Opponent Attack Min | Opponent Attack Max | Opponent Defense Min ... etc.
+}
+
+The character will be persitent throughout all levels - there will need to be a way of saving the character - this will probably be done in a text file (cheaters gonna cheat!).
+
+The character will have the following attributes:
+- Health
+- Spirit
+
+- Attack
+- Defense
+- Accuracy
+- Speed
+- Magic
+
+SCHEDULE
+
+Week 0 - 28th October
+I will create some sample assets (master level file, level file) and a demo save file.
+
+Week 1 - 4th November
+In this week, I will implement basic level and character loading functions, and then create a way of starting the game. If time, I will implement a way of progressing through the game.
+
+Week 2 - Unplanned as of yet.
